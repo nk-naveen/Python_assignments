@@ -1,11 +1,6 @@
-
-
 from abc import ABC ,abstractmethod
 
 class Person(ABC):
-    # def __init__(self, value):
-    #     self.value =value
-    #     super().__init__()
 
     @abstractmethod
     def gender_info(self):
