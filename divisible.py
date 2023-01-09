@@ -6,4 +6,4 @@ def divisible(n):
 n = int(input("enter a number: "))
     
 for i in divisible(n):
-    print(i, end = " ")
+    print(i, end = ",")

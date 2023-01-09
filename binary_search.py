@@ -1,7 +1,6 @@
 
 def binary_search(arr, start, end, x):
-
-   
+    
     if(end >= start):
 
         mid = start + (end-start)//2
@@ -29,6 +28,6 @@ end = len(arr)-1
 
 res =  binary_search(arr, start, end, x)
 if res != -1:
-    print("element is present at %d" % res)
+    print("element is found at index %d" % res)
 else:
-    print("element not")    
+    print("element not found")    
