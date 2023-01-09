@@ -16,7 +16,6 @@ class Female(Person):
 
     def gender_info(self):
         super().gender_info()
-
         print("female")
 
 f = Female()
