@@ -5,5 +5,7 @@ def divisible(n):
 
 n = int(input("enter a number: "))
     
+div = []
 for i in divisible(n):
-    print(i, end = ",")
+    print(div.append(str(i)))
+print(div)
